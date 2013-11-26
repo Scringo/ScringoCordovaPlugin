@@ -8,6 +8,7 @@
     <author>Guy Federovsky (guy@scringo.com)</author>
     <license>Apache 2.0</license>
     <keywords>cordova,Scringo</keywords>
+    <repo>https://github.com/Scringo/ScringoCordovaPlugin</repo>
     
     <engines>
         <engine name="cordova" version=">=3.0.0" />
