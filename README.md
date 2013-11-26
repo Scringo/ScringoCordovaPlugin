@@ -33,7 +33,6 @@ Full Example
         <title>Cordova Scringo Example</title>
         
         <script type="text/javascript" charset="utf-8" src="phonegap.js"></script>
-        <script type="text/javascript" charset="utf-8" src="plugins/com.scringo/www/scringo.js"></script>
         <script type="text/javascript" charset="utf-8">
             
         var deviceReady = false;
