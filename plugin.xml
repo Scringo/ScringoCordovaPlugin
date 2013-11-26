@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.scringo.cordova.plugin.scringo"
+    version="1.0.0">
+
+    <name>Scringo Plugin for Cordova iOS</name>
+    <description>This plugin provide access to Scringo's features from Cordova. This helps you create a community from you mobile app users. See: http://www.scringo.com</description>
+    <author>Guy Federovsky (guy@scringo.com)</author>
+    <license>Apache 2.0</license>
+    <keywords>cordova,Scringo</keywords>
+    
+    <engines>
+        <engine name="cordova" version=">=3.0.0" />
+    </engines>
+	
+    <asset src="www/scringo.js" target="plugins/com.scringo.cordova.plugin.scringo/www/scringo.js" />
+
+	<js-module src="www/scringo.js" name="Scringo">
+    	<clobbers target="window.scringo" />
+	</js-module>
+	
+    <!-- ios -->
+    <platform name="ios">
+        <!-- feature tag in config.xml -->
+        <config-file target="config.xml" parent="/*">
+          <feature name="Scringo">
+            <param name="ios-package" value="ScringoPlugin"/>
+          </feature>
+        </config-file>
+        
+        <header-file src="src/ios/ScringoPlugin.h" />
+        <source-file src="src/ios/ScringoPlugin.m"/>
+        
+        <framework src="MapKit.framework" />
+        <framework src="CoreGraphics.framework" />
+        <framework src="CoreText.framework" />
+        <framework src="UIKit.framework" />
+<!--        <framework src="FacebookSDK.framework" /> -->
+        
+    </platform>
+</plugin>
