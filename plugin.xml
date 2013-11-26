@@ -4,7 +4,7 @@
     version="1.0.0">
 
     <name>Scringo Plugin for Cordova iOS</name>
-    <description>This plugin provide access to Scringo's features from Cordova. This helps you create a community from you mobile app users. See: http://www.scringo.com</description>
+    <description>This plugin provides access to Scringo's features from Cordova. This helps you create a community from your mobile app users. See: http://www.scringo.com</description>
     <author>Guy Federovsky (guy@scringo.com)</author>
     <license>Apache 2.0</license>
     <keywords>cordova,Scringo</keywords>
