@@ -5,8 +5,9 @@ Created by Guy Federovsky (guy@scringo.com)
 Follows the [Cordova Plugin spec](http://cordova.apache.org/docs/en/3.0.0/plugin_ref_spec.md), so that it works with [Plugman](https://github.com/apache/cordova-plugman).  
 To import the plugin please use [Plugman](http://npmjs.org/plugman) or the [Cordova CLI tool](http://npmjs.org/cordova).  
 
-Note: For this to work you need to download and install **Scringo SDK** within your project. Please see http://docs.scringo.com/ios-guides/hello/ for more details.  
-Note: **iOS only** for now  
+Note: For this to work you need to download and install **Scringo SDK** within your project.  
+For iOS, please see http://docs.scringo.com/ios-guides/hello/ for more details.  
+For Android, please see http://docs.scringo.com/android-guides/quickstart/ for more details.  
 
 The "scringo" variable is installed globally.
 
